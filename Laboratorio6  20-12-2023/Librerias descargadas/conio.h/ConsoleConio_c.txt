@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int main(int argc, char *argv[])
+{
+   textbackground(RED);
+   textcolor(WHITE);
+   clrscr();
+   gotoxy(10,10);
+   cprintf("¡Hola, mundo!");
+   system("PAUSE");	
+   return 0;
+}
